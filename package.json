@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-net-ninja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbrencis/nodejs-net-ninja.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbrencis/nodejs-net-ninja/issues"
+  },
+  "homepage": "https://github.com/jbrencis/nodejs-net-ninja#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
