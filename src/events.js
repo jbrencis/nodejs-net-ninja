@@ -12,8 +12,9 @@ myEmitter.on('someEvent', msg => console.log(msg));
 
 // `Person` will inherit `events.EventEmitter`
 class Person extends events.EventEmitter {
-  constructor(props) {
-    super(props);
+  constructor(name) {
+    super();
+    this.name = name;
   }
 }
 
